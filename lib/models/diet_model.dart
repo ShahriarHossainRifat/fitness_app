@@ -1,4 +1,4 @@
-import 'dart:ui';
+import 'package:flutter/material.dart';
 
 class DietModel {
   String name;
@@ -24,7 +24,7 @@ class DietModel {
     diets.add(DietModel(
         name: 'Honey Pancake',
         iconPath: 'assets/icons/honey-pancakes.svg',
-        boxColor: Color(0xff92A3FD),
+        boxColor: const Color(0xff92A3FD),
         level: 'Easy',
         duration: '30mins',
         calorie: '180kCal',
@@ -33,7 +33,7 @@ class DietModel {
     diets.add(DietModel(
         name: 'Canai Bread',
         iconPath: 'assets/icons/canai-bread.svg',
-        boxColor: Color(0xffC58BF2),
+        boxColor: const Color(0xffC58BF2),
         level: 'Easy',
         duration: '20mins',
         calorie: '230kCal',
